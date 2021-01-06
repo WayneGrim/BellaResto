@@ -74,7 +74,7 @@
 
     .bannertop {
         display: flex;
-        background-image: url(../website/img/bannertop.png);
+        background-image: url(../BellaResto/img/bannertop.png);
         background-size: cover;
         height: 619px;
         width: 100%;
@@ -105,7 +105,7 @@
 
     .bannerbot {
         display: flex;
-        background-image: url(../website/img/bannerbot.png);
+        background-image: url(../BellaResto/img/bannerbot.png);
         background-size: cover;
         height: 619px;
         width: 100%;

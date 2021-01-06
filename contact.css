@@ -88,7 +88,7 @@ nav a {
 
  .bannertop {
     display: flex;
-    background-image: url(../website/img/bannertop.png);
+    background-image: url(../BellaResto/img/bannertop.png);
     background-size: cover;
     height: 619px;
     width: 100%;
