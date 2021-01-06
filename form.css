@@ -1,0 +1,183 @@
+    /* Global */
+    html {
+        box-sizing: border-box;
+        font-size: 100%;
+
+    }
+
+    body {
+        margin: 0;
+        font-family: "Poppins";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a:visited{
+        color: rgba(37, 43, 66, 1)!important;
+
+    }
+
+    a:link {
+        color: rgba(37, 43, 66, 1)!important;
+
+    }
+
+    nav div ul li a:hover {
+        color: rgba(250, 74, 12, 1) !important;
+
+    }
+    
+
+    p {
+        margin: 0;
+
+    }
+
+    h1 {
+        font-family: "Poppins";
+        font-size: 44px !important;
+        font-style: normal;
+        font-weight: 600 !important;
+        line-height: 36px;
+        text-align: center !important;
+        padding: 98px 0 98px 0 !important;
+
+    }
+
+    button {
+        background-color: rgba(250, 74, 12, 1);
+        color: rgba(255, 255, 255, 1);
+        width: 177px;
+        height: 68px;
+        border-radius: 30px !important;
+        border: none;
+        font-family: "Montserrat"!important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px !important;
+        align-self: flex-end !important;
+        margin-right: 23px;
+
+    }
+    
+    
+    /* Header */
+
+    nav a {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+
+     /* Banner */
+
+     .bannertop {
+        display: flex;
+        background-image: url(../website/img/bannertop.png);
+        background-size: cover;
+        height: 619px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center !important;
+
+    }
+
+    .bannertop :first-child{
+        padding-top: 73px;
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        color: rgba(246, 246, 246, 1);
+
+    }
+
+    .bannertop :last-child{
+        padding-top: 90px;
+        font-family: "Poppins";
+        font-size: 58px;
+        font-weight: 700;
+        color: rgba(246, 246, 246, 1);
+        line-height: 80px;
+        
+    }
+
+         /* Helpers */
+
+
+     /* Forms */
+
+        .titres {
+            font-family: "Poppins";
+            font-size: 44px !important;
+            font-style: normal;
+            font-weight: 600 !important;
+        }
+
+        .titres2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900 !important;
+            font-size: 24px;
+            letter-spacing: 0.1px;
+            color: #FA4A0C;
+        }
+
+    @media screen and (max-width: 768px) {
+
+        .bannertop :last-child{
+            padding-top: 90px;
+            font-family: "Poppins";
+            font-size: 28px;
+            font-weight: 700;
+            color: rgba(246, 246, 246, 1);
+            line-height: 80px;
+            
+        }
+
+        .bannertop :first-child{
+            padding-top: 73px;
+            font-family: "Montserrat";
+            font-size: 20px;
+            font-weight: 700;
+            color: rgba(246, 246, 246, 1);
+    
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+
+        .bannertop :last-child{
+            padding-top: 90px;
+            font-family: "Poppins";
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(246, 246, 246, 1);
+            line-height: 80px;
+            
+        }
+
+        .bannertop :first-child{
+            padding-top: 73px;
+            font-family: "Montserrat";
+            font-size: 16px;
+            font-weight: 700;
+            color: rgba(246, 246, 246, 1);
+    
+        }
+    }

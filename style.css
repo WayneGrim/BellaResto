@@ -140,6 +140,7 @@
         border: none !important;
     }
 
+
    div p {
         font-family: "Montserrat";
         font-size: 36px;
@@ -174,13 +175,12 @@
         font-weight: 600;
         font-size: 34px;
         margin-left: 55px;
-        margin-top: 160px;
+        margin-top: 160px !important;
 
     }
 
     article p {
         margin-left: 55px;
-        padding-right: 305px;
         font-weight: 400;
         margin: 18px 0 160px 55px;
 

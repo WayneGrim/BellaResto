@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+<head>
+<!-- Meta nécéssaires -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no" />
+<!-- Liens CSS et fonts -->
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bella Resto</title>
+</head>
+
+<body>
+<!-- Header Desktop -->
+    <header>
+        <nav class="navbar d-flex flex-nowrap navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="../website/img/logo.svg" alt="Logo Bella Olonje"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="../website/index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="#piz">Pizzas</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="#bur">Burgers</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="#sal">Salades</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="../website/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<!-- Bannière -->
+    <div class="bannertop">
+        <p class="text-center">Food App</p>
+        <p class="text-center">Chez Bella<br>chaque désir s'additionne.</p>
+    </div>
+
+<!-- Formulaire -->
+    <p class="titres my-5 ml-3">Vos Informations</p>
+    <form action="contactus">
+
+<!-- Informations client -->
+
+        <div class="row">
+            <div class="col-lg-3 offset-lg-1 col-md">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3 col-md">
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 offset-lg-1 col-md">
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3 col-md">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+            </div>
+        </div>
+
+<!-- Commande client -->
+
+        <div class="container-fluid my-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md">
+                    <p class="titres">Votre Commande</p>
+                </div>
+                <div class="col-lg-6 col-md">
+                    <p class="titres2">Pizza 4 fromages</p>
+                </div>
+            </div>
+        </div>
+
+<!-- Choix des ingrédients -->
+
+        <h2 class="my-5 ml-3">Suppléments</h2>
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md">
+                <label for="ingr1">Choix des ingrédients</label>
+                <select class="form-select" id="ingr1" aria-label="Default select example">
+                    <option selected>Ingrédients</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-lg-4 col-md">
+                <label for="quant1">Quantité</label>
+                <input type="number" id="quant1" class="form-control">
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md">
+                <label for="ingr1">Choix des ingrédients</label>
+                <select class="form-select" id="ingr1" aria-label="Default select example">
+                    <option selected>Ingrédients</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-lg-4 col-md">
+                <label for="quant1">Quantité</label>
+                <input type="number" id="quant1" class="form-control">
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md">
+                <label for="ingr1">Choix des ingrédients</label>
+                <select class="form-select" id="ingr1" aria-label="Default select example">
+                    <option selected>Ingrédients</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-lg-4 col-md">
+                <label for="quant1">Quantité</label>
+                <input type="number" id="quant1" class="form-control">
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md">
+                <label for="ingr1">Choix des ingrédients</label>
+                <select class="form-select" id="ingr1" aria-label="Default select example">
+                    <option selected>Ingrédients</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-lg-4 col-md">
+                <label for="quant1">Quantité</label>
+                <input type="number" id="quant1" class="form-control">
+            </div>
+        </div>
+
+<!-- Frites -->
+
+        <div class="row my-3">
+            <div class="col-lg-3 justify-content-lg-start col-md">
+                <input type="radio" class="form-radio-input mx-3" name="fries" id="yfries"  value="yfries" checked>
+                <label for="yfries">Avec frites</label>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-lg-3 justify-content-lg-start col-md">
+                <input type="radio" class="form-radio-input mx-3" name="fries" id="nfries" value="nfries">
+                <label for="nfries">Sans frites</label>
+            </div>
+        </div>
+
+<!-- Boissons + Desserts -->
+
+        <div class="container-fluid my-5">
+            <div class="row">
+
+<!-- Boissons -->
+
+                <div class="col-lg-6 col-md">
+                    <h2 class="col my-4">Boissons</h2>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="checkbox" name="boisson" id="coca" class="form-check-input">
+                            <label for="coca">Coca-Cola</label>
+                            <select name="boisson" id="coca">
+                                <option selected>- Quantité -</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="checkbox" name="boisson" id="coca" class="form-check-input">
+                            <label for="coca">Coca-Cola</label>
+                            <select name="boisson" id="coca">
+                                <option selected>- Quantité -</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="checkbox" name="boisson" id="coca" class="form-check-input">
+                            <label for="coca">Coca-Cola</label>
+                            <select name="boisson" id="coca">
+                                <option selected>- Quantité -</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+<!--  Desserts -->
+
+                <div class="col-lg-6 col-md">
+                    <h2 class="col my-4">Dessert</h2>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="checkbox" name="boisson" id="coca" class="form-check-input">
+                            <label for="coca">Coca-Cola</label>
+                            <select name="boisson" id="coca">
+                                <option selected>- Quantité -</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="checkbox" name="boisson" id="coca" class="form-check-input">
+                            <label for="coca">Coca-Cola</label>
+                            <select name="boisson" id="coca">
+                                <option selected>- Quantité -</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="checkbox" name="boisson" id="coca" class="form-check-input">
+                            <label for="coca">Coca-Cola</label>
+                            <select name="boisson" id="coca">
+                                <option selected>- Quantité -</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--  Livraison -->
+
+        <h2>Adresse de livraison</h2>
+        <div class="row mt-5">
+            <div class="col-lg-3 offset-lg-1 col-md">
+                <div class="form-group">
+                    <label for="nom-shipin">Nom</label>
+                    <input type="text" name="nom-shipin" id="nom-shipin" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3 col-md">
+                <div class="form-group">
+                    <label for="prenom-shipin">Prénom</label>
+                    <input type="text" name="prenom-shipin" id="prenom-shipin" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 offset-lg-1 col-md">
+                <div class="form-group">
+                    <label for="phone-shipin">Phone</label>
+                    <input type="text" name="phone-shipin" id="phone-shipin" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3 col-md">
+                <div class="form-group">
+                    <label for="email-shipin">Email</label>
+                    <input type="email" name="email-shipin" id="email-shipin" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 offset-lg-1 col-md">
+                <div class="form-group">
+                    <label for="adress-shipin">Adresse</label>
+                    <input type="text" name="adress-shipin" id="adress-shipin" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3 col-md">
+                <div class="form-group">
+                    <label for="cp-shipin">Code Postale</label>
+                    <input type="text" name="cp-shipin" id="cp-shipin" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 offset-lg-1 col-md">
+                <div class="form-group">
+                    <label for="city-shipin">Ville</label>
+                    <input type="text" name="city-shipin" id="city-shipin" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3 col-md mb-5">
+                <div class="form-group">
+                    <label for="pays-shipin">Pays</label>
+                    <input type="text" name="pays-shipin" id="pays-shipin" class="form-control">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row justify-content-end">
+                <button class="mb-5" type="button" id="contactus">Submit</button>
+            </div>
+
+        </div>
+
+    </form>
+
+<!-- JS Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

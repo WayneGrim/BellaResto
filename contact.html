@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Meta nécéssaires -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no" />
+    <!-- Liens CSS et fonts -->
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bella Resto</title>
+</head>
+
+<body>
+    <!-- Header Desktop -->
+    <header>
+        <nav class="navbar d-flex flex-nowrap navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="../website/img/logo.svg" alt="Logo Bella Olonje"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="../website/index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="#piz">Pizzas</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="#bur">Burgers</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="#sal">Salades</a>
+                    </li>
+                    <li class="nav-item mr-5 text-center">
+                        <a class="nav-link" href="../website/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Bannière -->
+
+        <div class="bannertop">
+            <p class="text-center">Food App</p>
+            <p class="text-center">Chez Bella<br>chaque désir s'additionne.</p>
+        </div>
+
+        <!-- Nous Contacter -->
+
+        <p class="titres my-5 ml-3">Vos Informations</p>
+
+        <form>
+
+            <!-- Informations client -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 ml-lg-3 col-md">
+                        <div class="form-group">
+                            <label for="name3">Nom</label>
+                            <input type="text" name="name3" id="name3" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-2 col-md">
+                        <div class="form-group">
+                            <label for="firstname3">Prénom</label>
+                            <input type="email" name="firstname3" id="firstname3" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 ml-lg-3 col-md">
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" name="phone" id="phone" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-2 col-md">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 ml-lg-3 col-md">
+                        <div class="form-group">
+                            <label for="society">Société</label>
+                            <input type="text" name="society" id="society" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-2 col-md">
+                        <div class="form-group">
+                            <label for="job">Fonction</label>
+                            <input type="text" name="job" id="job" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upload fichier -->
+
+            <div class="container-fluid mt-5">
+                <div class="col-lg-4 col-md mb-3">
+                    <input class="form-control upfile" type="file" id="formFile">
+                </div>
+            </div>
+
+            <!-- Recaptcha -->
+            <div class="container-fluid mt-5">
+                <div class="g-recaptcha ml-3" data-sitekey="6LdP4w0aAAAAAB4X6ijLfP0TqQA2HW4hc1_vtoRT"></div>
+            </div>
+            <!-- Message -->
+
+            <div class="container-fluid mt-5">
+                <div class="form-group col-lg-8 col-md my-5">
+                    <label for="objet">Objet</label>
+                    <select class="form-control" id="objet">
+                        <option>Commande</option>
+                        <option>Reclamation</option>
+                        <option>Plainte</option>
+                        <option>Autre</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container-fluid mb-5">
+                <div class="form-floating col-lg-8 col-md">
+                    <textarea class="form-control" style="height: 300px;" placeholder="Commentaires"
+                        id="comms"></textarea>
+                </div>
+            </div>
+
+            <!-- Map Google -->
+
+            <div class="container-fluid my-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.8302229480914!2d2.433056315867415!3d48.78513141381575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1608467216135!5m2!1sfr!2sfr"
+                    width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                </section>
+
+                <!-- Bouton submit -->
+
+                <div class="container mt-5">
+                    <div class="row justify-content-end">
+                        <button class="mb-5">Submit</button>
+                    </div>
+        </form>
+    </main>
+
+    <!-- JS Google -->
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- JS Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
